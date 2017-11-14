@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<a href="">
+					<h1>我的招财猫</h1>
+				</a>
+			</div>
+			<div class="loginArea">
+				<a href="">注册</a> | <a href="">登录</a>
+			</div>
+		</header>
+		
+		<section class="topmenu">
+			<a class="current" href="">首页</a>
+			<a href="">我要投资</a>
+			<a href="">帐户中心</a>
+		</section>
+
+		<div id='slider' class='swipe'>
+		  <div class='swipe-wrap'>
+		    <div><a href=""><img src="img/slider1.jpg"/></a></div>
+		    <div><a href=""><img src="img/slider2.jpg"/></a></div>
+		  </div>
+		  
+		  <ol class="slider-indirector">
+		  	<li class="current"></li>
+		  	<li></li>
+		  </ol>
+		</div>
+
+		<section class="quicklinks">
+			<a href="">
+				<img src="img/home_ico_01.png" alt="" />
+				<p>安全保障</p>
+			</a>
+			<a href="">
+				<img src="img/home_ico_02.png" alt="" />
+				<p>关于我们</p>
+			</a>
+			<a href="">
+				<img src="img/home_ico_03.png" alt="" />
+				<p>新手指引</p>
+			</a>
+			<a href="">
+				<img src="img/home_ico_04.png" alt="" />
+				<p>帮助中心</p>
+			</a>
+		</section>
+		
+		<section class="hot">
+			<h2 class="product title"><span>热门产品</span><a href="">更多</a></h2>
+			<ul>
+				<li>
+					<div class="productName">
+						<h3>赚钱计划8888号2期</h3>
+						<span><i>返现金</i><em>V</em></span>
+					</div>
+					<div class="productInfo">
+						<div class="data"><em>10.5%</em><span>+0.5%</span></div>
+						<div class="date">
+							<em>300天</em></br>投资期限
+						</div>
+						<div class="circle">
+							<canvas class="loader" data-number="61" width="" height=""></canvas>
+						</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="productName">
+						<h3>赚钱计划8888号2期</h3>
+						<span><i>返现金</i><em>V</em></span>
+					</div>
+					<div class="productInfo">
+						<div class="data"><em>10.5%</em><span>+0.5%</span></div>
+						<div class="date">
+							<em>300天</em></br>投资期限
+						</div>
+						<div class="circle">
+							<canvas class="loader" data-number="63" width="" height=""></canvas>
+						</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="productName">
+						<h3>赚钱计划8888号2期</h3>
+						<span><i>返现金</i><em>V</em></span>
+					</div>
+					<div class="productInfo">
+						<div class="data"><em>10.5%</em><span>+0.5%</span></div>
+						<div class="date">
+							<em>300天</em></br>投资期限
+						</div>
+						<div class="circle">
+							<canvas class="loader" data-number="91" width="" height=""></canvas>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		
+		<section class="news">
+			<h2 class="product title"><span>企业动态</span><a href="">更多</a></h2>
+			<ul>
+				<li>
+					<a href="">
+						<img src="img/news20170309133946_工资日标题.jpg" alt="" />
+						<div>
+							<h4>工资日标题</h4>
+							<p><span>工资日标题</span> <span>2017-5-14</span></p>
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a href="">
+						<img src="img/news20170310144045_植树节专享标题.jpg" alt="" />
+						<div>
+							<h4>植树节专享标题</h4>
+							<p><span>植树节专享标题</span> <span>2017-5-14</span></p>
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a href="">
+						<img src="img/news20170310144045_植树节专享标题.jpg" alt="" />
+						<div>
+							<h4>植树节专享标题</h4>
+							<p><span>植树节专享标题</span> <span>2017-5-14</span></p>
+						</div>
+					</a>
+				</li>
+				
+				<li>
+					<a href="">
+						<img src="img/news20170310144045_植树节专享标题.jpg" alt="" />
+						<div>
+							<h4>植树节专享标题</h4>
+							<p><span>植树节专享标题</span> <span>2017-5-14</span></p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			
+		</section>
+		
+		
+		<section class="footer">
+			<div class="links"><a href="">触屏版 </a><a href="">|</a><a href=""> 电脑</a><a href="">|</a><a href=""> APP下载</a></div>
+			<div class="copyright">Reserved. </div>
+		</section>
+		<script src="js/swipe.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zeptoJs/zepto.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="js/jquery.classyloader.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="js/flexible.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/flexible_css.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript">
+			
+			$(function(){
+			
+				var lis = document.querySelectorAll("#slider .slider-indirector li");
+				
+				window.mySwipe = Swipe(document.getElementById('slider'),{
+					callback: function(index, elem) {
+						console.info(index,elem);
+						for (var i = 0; i < lis.length; i++) {
+							lis[ i% 2].className = "";
+						}
+						lis[index%2].className = "current";
+					}
+				});
+				
+				
+				//圆形进度条
+				var width = 68 * document.documentElement.offsetWidth/375,
+					d =  width * 0.4,
+					linewith = width/40,
+					fs = 20 * document.documentElement.offsetWidth/375 +"px";
+				var loaders = $('.loader');
+				loaders.each(function(index,item){
+					var value = $(this).data("number");
+					console.info(index,item,value);
+					$(item).ClassyLoader({
+						fontColor:"#FB4034",
+					 	width: width,
+		            	height: width,
+		                percentage: value, /* 数值 */
+		                speed: 20,
+		                fontSize: fs,
+		                diameter: d,
+		                lineColor: '#FA3012',
+		                remainingLineColor: '#FFE2E0',
+		                lineWidth: linewith
+		           });
+				})
+			});
+			 
+		</script>
+	</body>
+</html>
